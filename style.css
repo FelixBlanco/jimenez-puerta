@@ -1,0 +1,132 @@
+@font-face{
+	src: url('tipografia/Stark.OTF');
+	font-family: 'Stark_tip';
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Stark";
+}
+
+body,html{
+	font-family: 'Stark_tip';
+	height: 100%;
+}
+
+#contactos input,textarea{
+	border:2px solid #006AAD;
+}
+
+.barra-divisora{
+	padding: 10px;
+}
+
+.ocultar{
+	display: none;
+}
+
+.min-60{
+	height: 60%;
+}
+
+.clientes:hover{
+	color: #00345C;
+}
+
+.text-white{
+	color:white;
+}
+
+.text-black{
+	color:black;
+}
+
+.text-azul{
+	color: #00345C;
+}
+
+.bg-azul-oficial{
+	background-color: #00345C;
+}
+
+.txt-blacku-oficial{
+	color: #201815;
+}
+
+.bg-blacku-oficial{
+	background-color: #201815;
+}
+
+.txt-gris-oficial{
+	color: #5C5C5C;
+}
+
+.bg-gris-oficial{
+	background-color: #5C5C5C;
+}
+
+.a-black a{
+	color: black;
+}
+.a-black li{
+	margin-left: 3%;
+}
+
+.list-sin-style{
+	list-style: none;
+}
+
+.paddin-top-1{
+	padding-top: 1%;
+}
+.paddin-top-2{
+	padding-top: 2%;
+}
+.paddin-top-3{
+	padding-top: 3%;
+}
+.paddin-bottom-3{
+	padding-bottom: 3%;
+}
+.paddin-top-bottom-2{
+	padding: 2% 0px 2% 0px;
+}
+
+.margin-top-3{
+	margin-top: 3%;
+}
+.margin-top-12{
+	margin-top: 12%;
+}
+.margin-bottom-4{
+	margin-bottom: 4%;
+}
+
+.margin-top-bottom-2{
+	margin: 2% 0px 2% 0px;
+}
+
+.linea{
+	height: 1px;
+}
+.linea-center-small{
+	margin: auto;
+	width: 4%; 
+}
+
+.border-azul-right-2{
+	border-right: 2px solid #00345C;
+}
+
+.margin-top-50{
+	margin-top: 250%;
+}
+.boton{
+	background-color: #EEEDED;
+	padding: 10px;
+}
+
+footer{
+	height: 30px;
+}
