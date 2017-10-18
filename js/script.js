@@ -44,7 +44,7 @@ $(document).ready(function(){
 	$(".redes").hover(function(){
 
 		var ConteHover = $(this).attr('alt');
-		console.log(ConteHover);
+
 		if(ConteHover == 'facebook'){
 			$(this).attr('src','img/iconos/redes-sociales/gris-blanco/Facebook.png')
 		}
@@ -83,10 +83,24 @@ $(document).ready(function(){
 			$(this).attr('src','img/iconos/azul/2.png');
 		}
 
+		// Formulario 
+
+		if(ConteHover == 'facebook_formulario'){
+			$(this).attr('src','img/iconos/redes-sociales/formulario/Face-azul-60px.png');
+		}
+
+		if (ConteHover == 'instagram_formulario') {
+			$(this).attr('src','img/iconos/redes-sociales/formulario/insta-azul-60px.png');
+		}
+
+		if (ConteHover == 'youtube_formulario') {
+			$(this).attr('src','img/iconos/redes-sociales/formulario/youtube-azul-60px.png');
+		}
+
 	},function(){
 		
 		var ConteHover = $(this).attr('alt');
-		console.log(ConteHover);
+
 		if(ConteHover == 'facebook'){
 			$(this).attr('src','img/iconos/redes-sociales/azul-blanco/Facebook.png');
 		}
@@ -125,14 +139,43 @@ $(document).ready(function(){
 			$(this).attr('src','img/iconos/icon-gris/6.png');
 		}
 
+		// Formulario 
+
+		if(ConteHover == 'facebook_formulario'){
+			$(this).attr('src','img/iconos/redes-sociales/formulario/Face-blanco-60px.png');
+		}
+
+		if (ConteHover == 'instagram_formulario') {
+			$(this).attr('src','img/iconos/redes-sociales/formulario/insta-blanco-60px.png');
+		}
+
+		if (ConteHover == 'youtube_formulario') {
+			$(this).attr('src','img/iconos/redes-sociales/formulario/youtube-blanco-60px.png');
+		}
+
 	});
 
+	
+	$(".img-model-form").click(function(){ // Modal de la galeria
+		
+		var img = $(this).attr('alt');
 
+		$("#img-modal").attr('src','img/iconos/galeria/'+img+'.png');
+
+	})
+
+	
+	$(".videos").click(function(){ // Cambio de Videos 
+	
+		var video = $(this).attr('alt');
+	
+		$("#video-m").attr('src',video);
+	
+	});
 
 /********************************
 # Slide 
 **********************************/
-
 
 		function SlideUno(){
 			setTimeout(function(){

@@ -1,51 +1,40 @@
 <!-- Clientes -->
 <section id="clientes" class="paddin-top-bottom-2">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12 paddin-top-bottom-2">
-				<h2 class="text-center text-azul">NUESTROS CLIENTES CORPORATIVOS</h2>
-				<hr class="linea linea-center-small bg-azul-oficial">
+			<div class="col-md-4paddin-top-bottom-2">
+				<h3 class=" text-azul"><strong>NUESTROS CLIENTES CORPORATIVOS</strong></h3>
+				<hr class="bg-azul-oficial linea linea-md">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Banco Colpatria</h5>
+			<div class="col-md-4">
+				<ul class="border-azul-right-2 list-sin-style">
+					<li class="paddin-8">Banco Colpatria</li>
+					<li class="paddin-8">Constructora Colpatria</li>
+					<li class="paddin-8">Fiduciaria Colpatria</li>
+					<li class="paddin-8">Bancoomeva</li>
+					<li class="paddin-8">Cerdos del Valle S.A  (CERVALLE) </li>
+					<li class="paddin-8">Agropecuaria Criadero Villa Maria SAS</li>
+				</ul>
 			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Constructora Colpatria </h5>
+			<div class="col-md-4">
+				<ul class="border-azul-right-2 list-sin-style">
+					<li class="paddin-8">Frigopork SAS</li>
+					<li class="paddin-8">Integraciones Porcinas Ltda</li>
+					<li class="paddin-8">Banco Av Villas S.A</li>
+					<li class="paddin-8">Banco Caja Social</li>
+					<li class="paddin-8">Agropecuaria Rancho Luna S.C.S </li>
+				</ul>
 			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Fiduciaria Colpatria </h5>
+			<div class="col-md-4">
+				<ul class="list-sin-style">
+					<li class="paddin-8">Banco Davivienda</li>
+					<li class="paddin-8">Bancolombia</li>
+					<li class="paddin-8">IMP AGRO SAS</li>
+					<li class="paddin-8">García Gómez Agroinversiones SAS</li>
+					<li class="paddin-8">Banco Bilbao Vizcaya Argentaria Colombia S.A (BBVA)</li>
+				</ul>
 			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Bancoomeva </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Frigopork SAS </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes">Integraciones Porcinas Ltda  </h5>
-			</div>
-		</div> 
-		<div class="row">
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Banco Av Villas S.A </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Banco Caja Social  </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2">Banco Davivienda  </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2 border-azul-right-2"> Bancolombia </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes border-azul-right-2 border-azul-right-2"> IMP AGRO SAS </h5>
-			</div>
-			<div class="col-md-2">
-				<h5 class="text-center clientes"> García Gómez Agroinversiones SAS  </h5>
-			</div>
-		</div>
 	</div>
 </section>

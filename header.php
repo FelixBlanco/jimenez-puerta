@@ -3,10 +3,10 @@
 	<div class="container">
 		<div class="row paddin-top-bottom-2">
 			<div class="col-md-6">
-				<img src="img/Logo-Jimenez-Puerta.png" alt="logo Jimenez Puerta" class="center-block img-responsive">
+				<img src="img/Logo-Jimenez-Puerta.png" alt="logo Jimenez Puerta" class="img-responsive" id="logo">
 			</div>
-			<div class="col-md-5 text-right">
-				<ul class="list-inline a-black" style="margin-top: 5%;">
+			<div class="col-sm-12 col-md-5 ">
+				<ul class="list-inline a-black nav-social">
 					<li>
 						<a href="https://www.facebook.com/jimenezpuertaabogados/" target="_blank">
 						<img src="img/iconos/redes-sociales/azul-blanco/Facebook.png" alt='facebook' class="redes img-responsive center-block"></a></li>
@@ -19,17 +19,42 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row margin-top-2">
-			<div class="col-md-12">
-				<ul class="list-inline text-center a-black">
-					<li><a data-scroll href="#"><h4>Home</h4></a></li>
-					<li><a data-scroll href="#objetivos-corporativos"><h4>Objetivo Corporativo</h4></a></li>
-					<li><a data-scroll href="#areas-practicas"><h4>Áreas de práctica</h4></a></li>
-					<li><a data-scroll href="#ventajas-competitivas"><h4>Ventajas competitivas</h4></a></li>
-					<li><a data-scroll href="#"><h4>Galeria</h4></a></li>
-					<li><a data-scroll href="#contactos"><h4>Contacto</h4></a></li>
-				</ul>
-			</div>
+
+		<div class="row">
+			<nav class="navbar">
+			  <div class="container">
+
+					
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar" style="background-color:black;"></span>
+						<span class="icon-bar" style="background-color:black;"></span>
+						<span class="icon-bar" style="background-color:black;"></span>
+					  </button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav" id="mymenu">
+					
+						<li><a data-scroll href="#objetivos-corporativos"><h4>Objetivo Corporativo</h4></a></li>
+						<li><a data-scroll href="#areas-practicas"><h4>Áreas de Práctica</h4></a></li>
+						<li><a data-scroll href="#ventajas-competitivas"><h4>Ventajas Competitivas</h4></a></li>
+						<li><a data-scroll href="#perfiles"><h4>Nuestro Equipo</h4></a></li>
+						<li><a data-scroll href="#full-galaria"><h4>Galería</h4></a></li>
+						<li><a data-scroll href="#contactos"><h4>Contacto</h4></a></li>
+
+					  </ul>
+
+
+
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
 		</div>
+
+
 	</div>
 </header>	

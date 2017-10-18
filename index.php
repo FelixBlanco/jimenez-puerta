@@ -28,6 +28,25 @@
 </head>
 <body>
 
+<?php if($_COOKIE['mensaje_email'] == 'true'){ 
+setcookie("mensaje_email", 'true', time()-1000);
+	?>
+
+<div class="alert alert-success alert-dismissable">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Perfecto</strong> Se envio correctamente.
+</div>
+
+<?php }elseif($_COOKIE['mensaje_email'] == 'false'){ 
+setcookie("mensaje_email", 'false', time()-1000);
+	?>
+
+<div class="alert alert-danger alert-dismissable">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Lo siento</strong> ocurrio un error vuelta a intentar.
+</div>
+
+<?php } ?>
 
 <?php include('header.php'); ?>
 
@@ -48,6 +67,14 @@
 <div class="barra-divisora"></div>
 
 <?php include('perfiles.php'); ?>
+
+<div class="barra-divisora"></div>
+
+<?php include('videos.php'); ?>
+
+<div class="barra-divisora"></div>
+
+<?php include('galeria.php'); ?>
 
 <div class="barra-divisora"></div>
 
